@@ -1,0 +1,298 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0px;
+}
+
+html{
+  font-family: serif;
+  font-size: 16px;
+}
+
+.header{
+  height: 120px;
+  background-color: white;
+}
+
+.logo{
+  float: left;
+}
+
+.logo{
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 45px;
+  margin-left: 80px;
+  letter-spacing: 1px;
+}
+
+.nav{
+  float: right;
+  margin-right: 100px;
+  margin-top: 45px;
+}
+
+.nav li{
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.nav li a{
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+/* SLIDER  */
+
+.slider{
+  position: relative;
+  padding-top: 80%;
+  /*background: url('/images/1.jpg') top center / cover;*/
+  background-image: linear-gradient(100deg,rgba(36, 36, 36, 0.65) 100%,rgba(1, 1, 1, 0)), url('/images/1.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text-content{
+  position: absolute;
+  color: white;
+  bottom: 380px;
+  text-align: center;
+  width: 100%;
+}
+
+.text-heading{
+  font-size: 150px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.text-description{
+  font-size: 35px;
+  letter-spacing: 1px;
+  opacity: 0.6;
+}
+
+.button{
+  background-color: rgba(105, 184, 184, 0.8);
+  padding: 28px 35px;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  text-decoration: none;
+  color:white;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+/* ABOUT */
+
+.about{
+  background: linear-gradient(100deg,rgba(36, 36, 36, 0.75) 100%,rgba(66, 66, 66, 0)), url('/images/black.jpg');  
+  padding-top: 60%;
+  position: relative;
+}
+
+.text-content-2{
+  position: absolute;
+  color: white;
+  text-align: center;
+  bottom: 150px;
+  width: 100%;
+}
+
+.text-heading-2{
+  letter-spacing: 2px;
+  font-size: 30px;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+.text-description-2{
+  line-height: 35px;
+  font-size: 24px;
+  opacity: 0.6;
+}
+
+.text-description-2 a{
+  color: rgba(105, 184, 184, 1);
+}
+
+/* PROJECTS 1 */
+
+.product-1{
+ padding: 150px 0px;
+}  
+
+.product-img-1{
+  width: 45%;
+  margin-left: 130px;
+  float: left;
+  box-shadow: 10px 10px;
+  color: rgb(77, 160, 160);
+}
+
+.box-1{
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.title-1{
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-size: 30px;
+  opacity: 0.9;
+}
+
+.infor-1{
+  font-size: 28px;
+  letter-spacing: 1px;
+  opacity: 0.55;
+}
+
+/* PROJECTS 2 */
+
+.product-img-2{
+  width: 40%;
+  float: left;
+  margin-left: 130px;
+}
+
+.box-2{
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 650px;
+  height: 530px;
+  margin-left: 48.5%;
+}
+
+.title-2{
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-size: 30px;
+  padding-top: 80px;
+  opacity: 0.9;
+}
+
+.infor-2{
+  font-size: 28px;
+  letter-spacing: 1px;
+  opacity: 0.55;
+}
+
+/* PROJECTS  */
+
+.product-3{
+
+}
+
+.box-3{
+  float: left;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 580px;
+  width: 40%;
+  margin-left: 130px ;
+}
+
+.title-3{
+  padding-top: 120px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-size: 30px;
+  opacity: 0.9;
+}
+
+.infor-3{
+  font-size: 28px;
+  letter-spacing: 1px;
+  opacity: 0.55;
+}
+
+.product-img-3{
+  width: 650px;
+  height: 460px;
+  margin-bottom: 330px;
+}
+
+/* CONTACT */
+
+.contact{
+  position: relative;
+  padding-top: 55%; 
+  background-image: linear-gradient(100deg,rgba(36, 36, 36, 0.4) 100%,rgba(1, 1, 1, 0)), url('/images/4.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.contact-group{
+  position: absolute;
+  width: 100%;
+  bottom: 280px;
+  color: white;
+  text-align: center;
+}
+
+i[class*=fa-]{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.text-heading-3{
+  letter-spacing: 2px;
+  font-size: 40px;
+  margin-bottom: 50px;
+  opacity: 0.9;
+}
+
+.text-contact input[type=text]{
+  width: 420px;
+  height: 68px;
+  margin-left: 400px;
+  float: left;
+  border-radius: 5px;
+  border: none;
+  padding: 0px 40px;
+  font-size:16px;
+  letter-spacing:2px;
+}
+
+.button-contact input[type=button]{
+  padding: 25px 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(105, 184, 184, 0.6);
+  color:white;
+  opacity: 0.9;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 350px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+
+footer{
+  background-color: black;
+}
+
+.footer{
+  color: white;
+  text-align: center;
+  padding: 100px 10px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  opacity: 0.5;
+}
