@@ -51,7 +51,7 @@ html{
   position: relative;
   padding-top: 80%;
   /*background: url('/images/1.jpg') top center / cover;*/
-  background-image: linear-gradient(100deg,rgba(36, 36, 36, 0.65) 100%,rgba(1, 1, 1, 0)), url('/images/1.jpg');
+  background-image: linear-gradient(100deg,rgba(36, 36, 36, 0.65) 100%,rgba(1, 1, 1, 0)), url('./images/1.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,7 +93,7 @@ html{
 /* ABOUT */
 
 .about{
-  background: linear-gradient(100deg,rgba(36, 36, 36, 0.75) 100%,rgba(66, 66, 66, 0)), url('/images/black.jpg');  
+  background: linear-gradient(100deg,rgba(36, 36, 36, 0.75) 100%,rgba(66, 66, 66, 0)), url('./images/black.jpg');  
   padding-top: 60%;
   position: relative;
 }
@@ -229,7 +229,7 @@ html{
 .contact{
   position: relative;
   padding-top: 55%; 
-  background-image: linear-gradient(100deg,rgba(36, 36, 36, 0.4) 100%,rgba(1, 1, 1, 0)), url('/images/4.jpg');
+  background-image: linear-gradient(100deg,rgba(36, 36, 36, 0.4) 100%,rgba(1, 1, 1, 0)), url('./images/4.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
